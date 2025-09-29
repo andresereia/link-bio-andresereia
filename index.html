@@ -3,14 +3,84 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Link na Bio Premium - Teste</title>
+  <title>Larissa Varelli — Profissão</title>
+
+  <!-- Fontes: Serif para títulos, Sans para textos -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Apresentação profissional — Link na Bio Premium">
 </head>
 <body>
-  <main>
-    <h1>Olá, Sereia 👋</h1>
-    <p>Seu site está funcionando certinho! Agora vamos estilizar com o CSS.</p>
-    <a href="https://wa.me/5599999999999" target="_blank" rel="noopener">Falar no WhatsApp</a>
+  <div class="page-bg"></div>
+
+  <main class="phone">
+    <!-- topo compacto (tipo status/brand minúsculo) -->
+    <div class="pill">BIO VITRINE</div>
+
+    <!-- HERO -->
+    <header class="hero">
+      <img src="assets/foto.jpg" alt="Foto profissional" class="hero__foto">
+      <h1 class="hero__nome">Larissa Varelli</h1>
+      <p class="hero__cargo">Profissão</p>
+    </header>
+
+    <!-- SOBRE MIM -->
+    <section class="card">
+      <h2>Sobre mim</h2>
+      <p>
+        Escreva aqui um breve texto de apresentação. Este espaço foi criado para destacar quem você é, o que faz e como
+        posiciona sua área de atuação. Com um texto curto e objetivo, você transmite confiança e profissionalismo.
+      </p>
+    </section>
+
+    <!-- MINHA MISSÃO -->
+    <section class="card soft">
+      <h2><span class="it">Minha</span> missão</h2>
+      <p>
+        Explique sua missão, valores e diferenciais. Fale sobre como você ajuda pessoas e qual o resultado que busca
+        entregar. Use este bloco para reforçar credibilidade e alinhar expectativas.
+      </p>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="card">
+      <h2>Meus serviços</h2>
+      <ul class="servicos">
+        <li><strong>Nome do Serviço 1</strong> — descrição breve do que está incluso.</li>
+        <li><strong>Nome do Serviço 2</strong> — descrição breve do que está incluso.</li>
+        <li><strong>Nome do Serviço 3</strong> — descrição breve do que está incluso.</li>
+      </ul>
+      <a class="btn" href="https://wa.me/5599999999999?text=Olá!%20Vim%20do%20seu%20site%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        Entrar em contato
+      </a>
+    </section>
+
+    <!-- DÚVIDAS COMUNS -->
+    <section class="card soft">
+      <h2>Dúvidas comuns</h2>
+      <details class="faq">
+        <summary>Como funciona o atendimento?</summary>
+        <p>Explique de forma simples horários, formato e etapas.</p>
+      </details>
+      <details class="faq">
+        <summary>Qual é o prazo médio?</summary>
+        <p>Descreva prazos típicos e o que pode influenciar.</p>
+      </details>
+      <details class="faq">
+        <summary>Formas de pagamento</summary>
+        <p>Liste as opções aceitas e políticas básicas.</p>
+      </details>
+      <a class="btn ghost" href="https://wa.me/5599999999999?text=Tenho%20uma%20dúvida%20rápida" target="_blank" rel="noopener">
+        Tirar uma dúvida no WhatsApp
+      </a>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="foot">
+      <p class="reg">CRM / OAB / CRN • CNPJ 00.000.000/0000-00</p>
+      <p class="copy">© 2025 — Todos os direitos reservados</p>
+    </footer>
   </main>
 </body>
 </html>
